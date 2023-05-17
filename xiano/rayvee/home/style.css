@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: skyblue;
+    border-bottom: 1px solid black;
+}
+
+#header h1{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#header h1:hover{
+    color: blueviolet;
+}
+
+body{
+    background-image: url(art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li, a{
+    text-decoration: none;
+}
+
+ nav{
+    list-style: none;
+ }
+
+ nav li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    color: black;
+ }
+
+ nav li a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    border-radius: 20px;
+ }
+
+ /* body */
+
+ img {
+    height: 500px;
+    border-radius: 0px 10px 10px 0px;
+    border-bottom: 1px solid blue;
+ }
+
+#body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+}
+
+#left{
+    width: 400px;
+    height: 502px;
+    margin-top: 20px;
+}
+
+#right{
+    width: 70%;
+    margin-top: 20px;
+    padding-top: 80px;
+    border-radius: 10px 0px 0px 10px;
+    border-bottom: 1px solid blue;
+}
+
+#right p{
+    font-size: 65px;
+    font-weight: 20px;
+    text-align: center;
+}
